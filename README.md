@@ -1,15 +1,27 @@
-Welcome to My React Projects Repository!
+# Project Title
 
-× Overview :
+This is a collection of React projects.
 
-This Website is a result of hours of selt-study dedicated to learning and mastering the React Framework. I am a firm believer of learning by doing and
-that's why I've decided to get my hands dirty. 
-The design was not personal but was taken from this Url: https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank?type=design&node-id=0-1&mode=design&t=jtc4jJFhklhxqeaq-0
+## Table of Contents
 
-and the assets form this github gist link: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDMwcEVoeVRzSzN5anlYRGNhc3dFMDVqR1hBZ3xBQ3Jtc0ttMnVLWEQwRkgyWTJ4X1ZoMXplRWFBWUI5NnkxSWktRFRXN3k2NnFueV8xV1pNVXFyOTFQT19sQzBCZGJIUVpQTmF3Vk9QVGF5Nmg5RjlfM1Q2Y2FnWnpoY3FxNERfQ19rSThiQzBaS2hqMGJTajBYNA&q=https%3A%2F%2Fgist.github.com%2Fadrianhajdin%2F8a04faf5e52419ec93cd5329ffcb011e&v=_oO4Qi5aVZs
+1. About
+2. Contributing
+3. License
 
-× Technologies :
-  - React
-  - Vite
-  - Tailwind Css
-  - JSX
+## About
+
+This repository contains several projects built using React. Each project is located in its own directory and includes its own README with specific information about the project.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.

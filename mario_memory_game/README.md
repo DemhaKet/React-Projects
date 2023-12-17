@@ -1,8 +1,16 @@
-# React + Vite
+# Welcome to My Mario Memory Game Project!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of my React Projects Repository.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is the fruit of numerous hours of self-study, dedicated to understanding and mastering the React Framework. I strongly advocate for the 'learn by doing' approach, which led me to roll up my sleeves and dive into the practical application of my knowledge.
+
+## Technologies
+
+The technologies used in this project include:
+
+- React
+- Vite
+- Tailwind CSS
+- JSX
