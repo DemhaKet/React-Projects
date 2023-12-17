@@ -1,0 +1,260 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: url("./assets/background.jpg");
+  font-family: "Super Mario 256", Arial, Helvetica, sans-serif;
+}
+
+.main {
+  padding: 40px;
+  background-color: #ee0500;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main_12 {
+  padding: 40px;
+  background-color: #ee0500;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.under_main_4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.under_main_6 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.under_main_12 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.image-show_4 {
+  cursor: pointer;
+  max-width: 150px;
+  border-radius: 6%;
+  transition: 300ms;
+  box-shadow: 0 4px 8px 0 rgb(39, 39, 39), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-show_6 {
+  cursor: pointer;
+  max-width: 150px;
+  border-radius: 6%;
+  transition: 300ms;
+  box-shadow: 0 4px 8px 0 rgb(39, 39, 39), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-show_12 {
+  cursor: pointer;
+  max-width: 100px;
+  border-radius: 6%;
+  transition: 300ms;
+  box-shadow: 0 4px 8px 0 rgb(39, 39, 39), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-show_4:hover,
+.image-show_6:hover,
+.image-show_12:hover {
+  transform: translateY(-3px);
+}
+
+h1 {
+  font-size: 96px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+/* background: linear-gradient(90deg, transparent 70%, #ff0000 100%),
+    linear-gradient(-90deg, transparent 70%, #ff0000 100%),
+    linear-gradient(-180deg, transparent 70%, #ff0000 100%),
+    linear-gradient(0deg, transparent 70%, #ff0000 100%),
+    url("./assets/background.jpg"); */
+
+.button {
+  font-family: "Super Mario 256", sans-serif;
+  background-color: #ee0500;
+  border: solid white 3px;
+  color: white;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.button:active {
+  transform: translateY(0px);
+}
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  max-width: 500px;
+}
+
+@media (width < 833px) {
+  .under_main_4 {
+    gap: 25px;
+  }
+  .image-show_4 {
+    max-width: 100px;
+  }
+  .under_main_6 {
+    gap: 25px;
+  }
+  .image-show_6 {
+    max-width: 100px;
+  }
+  .under_main_12 {
+    gap: 15px;
+  }
+  .image-show_12 {
+    max-width: 80px;
+  }
+}
+
+@media (width < 633px) {
+  .under_main_4 {
+    gap: 17px;
+  }
+  .image-show_4 {
+    max-width: 80px;
+  }
+  .under_main_6 {
+    gap: 17px;
+  }
+  .image-show_6 {
+    max-width: 80px;
+  }
+}
+
+@media (width < 514px) {
+  .under_main_4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .image-show_4 {
+    max-width: 100px;
+  }
+  .under_main_6 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .image-show_6 {
+    max-width: 80px;
+  }
+}
+
+@media (width < 403px) {
+  .under_main_4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+  .image-show_4 {
+    max-width: 80px;
+  }
+  .under_main_6 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+  }
+  .image-show_6 {
+    max-width: 55px;
+  }
+}
+
+/*-----------------------------------------------------------*/
+@media (width < 699px) {
+  .under_main_12 {
+    gap: 10px;
+  }
+  .image-show_12 {
+    max-width: 65px;
+  }
+}
+
+@media (width < 583px) {
+  .under_main_12 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .image-show_12 {
+    max-width: 65px;
+  }
+  .logo {
+    max-width: 400px;
+  }
+  .button {
+    padding: 10px 21.6px;
+    font-size: 14px;
+    margin: 8px;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+}
+
+@media (width < 466px) {
+  .main_12 {
+    padding: 20px;
+  }
+  .under_main_12 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+  }
+  .image-show_12 {
+    max-width: 55px;
+  }
+  .logo {
+    max-width: 300px;
+  }
+}
+
+@media (width < 374px) {
+  h1 {
+    font-size: 48px;
+  }
+  .logo {
+    max-width: 250px;
+  }
+}
